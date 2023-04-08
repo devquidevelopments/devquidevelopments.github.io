@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Devqui Developments</title>
-    </head>
 
-    <body>
-        <h1>Welcome to my showcase</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devqui Developments</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.css"
+        integrity="sha512-z04xx19bk6Q/FewwTQYDcyJsZKDglEvuszVGtMUOeaPwTl6p9oa914VzJRBDT/HLCYzG+GQ03xfOa9jCzcNLVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section s1">
+            <h1>Welcome</h1>
+        </div>
+        <div class="section s2">
+            <h1>About me</h1>
+        </div>
+        <div class="section s3">
+            <div class="slide">
+                <h1>Projects</h1>
+            </div>
+            <div class="slide">
+                <h1>Web app</h1>
+            </div>
+        </div>
+        <div class="section s4">
+            <h1>Contact me</h1>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.js"
+        integrity="sha512-Vik4m48VUtOLgTkZXaP4SE+Pyy31VKRyJ+p62vGyZuF5v1xnPCVdPmZl5GP/+mEl/dD4Qb1I8g2bKk+lVWGTLA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+            autoScrolling: true,
+            scrollHorizontally: true
+        })
+    </script>
+</body>
+
 </html>
