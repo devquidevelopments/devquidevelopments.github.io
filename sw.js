@@ -2,7 +2,7 @@ const CACHE_NAME = 'fyp-cache';
 // Declares files and libraries required to be cached by the service worker.
 const toCache = [
     '/',
-    '/home.html',
+    '/index.html',
     '/res/dark-mode.png',
     '/res/globe-192.png',
     '/res/globe-512.png',
