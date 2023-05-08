@@ -9,7 +9,6 @@ const toCache = [
     '/res/globe-vector.svg',
     '/scripts/fyp.js',
     '/scripts/fyp.webmanifest',
-    '/scripts/initDB.js',
     'https://unpkg.com/leaflet@1.9.3/dist/leaflet.css',
     'https://unpkg.com/leaflet@1.9.3/dist/leaflet.js',
     'https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css',
