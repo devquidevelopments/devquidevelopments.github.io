@@ -24,23 +24,26 @@
                 <h1>Projects</h1>
             </div>
             <div class="slide">
-                <h1>Web app</h1>
+                <h1>Offline Map</h1>
             </div>
             <div class="slide">
                 <h1>Still to come</h1>
+                <h2>MySeatSwap (WIP)</h1>
+                <p>MySeatSwap is a new webapp that I'm working on allowing for users to swap seats on commercial
+                    flights. More details can be found here.</p>
             </div>
         </div>
         <div class="section s4">
             <h1>Contact me</h1>
             <p>For more information or any enquiries, leave a message with your name.</p>
-            <form id="contact">
+            <form action="https://formspree.io/f/xqkornbj" method="POST">
                 <input name="name" type="text" placeholder="Name" required>
                 <input name="email" type="email" placeholder="Email" required>
                 <input name="Subject" type="text" placeholder="Subject" required>
                 <textarea name="md" rows="10" required>
                     Message
                 </textarea>
-                <input name="submit" type="submit">
+                <button type="submit">Send</button>
             </form>
         </div>
     </div>
@@ -52,7 +55,7 @@
     <script>
         new fullpage('#fullpage', {
             autoScrolling: true,
-            scrollHorizontally: true
+            licenseKey: 'gplv3-license'
         })
     </script>
 </body>
