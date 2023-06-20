@@ -3,15 +3,19 @@
 }
 
 h1 {
-    font-size: 1.75em;
+    font-size: 2.5em;
     text-align: left;
     margin-left: 3em;
 }
 
-#contact label,
-#contact input,
-#contact textarea {
-    box-sizing: border-box;
-    display: block;
-    margin-top: .75em;
+h2 {
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 3em;
+}
+
+p {
+    font-size: 1em;
+    text-align: left;
+    margin-left: 3em;
 }
